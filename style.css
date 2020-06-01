@@ -3,8 +3,19 @@ html {
     min-height: 100%;
     }
 
+.navbar-light .navbar-brand {
+    color: floralwhite;
+    background-color: blue;
+    margin: 3%;
+
+    }
 body {
     margin: 0 0 100px;
+    background-color: lightgrey;
+}
+
+h3 {
+    color: blue;
 }
 
 img {
