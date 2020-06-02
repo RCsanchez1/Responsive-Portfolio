@@ -23,7 +23,7 @@
         }
     
     .container {
-        margin-right: auto;
+       
         margin-left: 1%;
     }
     
@@ -38,7 +38,8 @@
     
     .img-thumbnail {
         margin-left: 4%;
-        margin-right: 4%;
+        margin-right: 2%;
+        border-radius: 1.25rem;
     }    
     footer {
         background-color: blue;
@@ -55,15 +56,23 @@
 
     @media screen and (max-width: 768px){
         .container {
-            margin-left: 0%;
+            
+            margin-right: 0%;
+           
             }
         .col-md-9 {
-            flex: 0 0 99%;
-            max-width: 99%;
+            flex: 0 0 111%;
+            max-width: 111%;
             }
     }        
     
 
-    @media screen and (max-width: 768px){
-        
+    @media screen and (max-width: 640px){
+        .container {
+            margin-left: 0%;
+            }
+        .col-md-9 {
+            flex: 0 0 111%;
+            max-width: 111%;
+            }
     }
