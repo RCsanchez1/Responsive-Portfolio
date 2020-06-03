@@ -36,31 +36,43 @@
 </head>
 
 <!-- added contaner within body -->
+<!-- row 1 -->
 <body>
   <div class="container mt-4">
     <div class="row">
       <div class="col-md-9 img-thumbnail" style="background-color: azure;">
         <h3>About Me</h3>
         <hr>
-        <div class="box">
-          <img src="./img1/me.jpg" alt="picture of me" class="img-thumbnail" width="140px" style="float: left;">
+        <!-- row 2 -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
         </div>
-        <div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente excepturi at, accusamus laboriosam
-            aliquid
-            dolorem nisi animi blanditiis quibusdam dolor quae ratione similique omnis! Dolorem magnam error saepe
-            numquam
-            delectus.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto distinctio culpa fugit dolor veniam
-            quibusdam
-            ipsum dignissimos, nobis odit, excepturi delectus hic expedita ducimus numquam accusamus ipsam enim! Maxime,
-            non.</p>
+        
+        <!-- row 3-->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="form-group">
+              <button class="btn btn-primary btn-block">Send</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
-<br>
+  <br>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -74,7 +86,7 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 </body>
-
+<!-- added footer -->
 <footer>
   <p> &copy Copyright </p>
 </footer>
