@@ -1,6 +1,8 @@
 # Responsive-Portfolio
 
 Live Link https://rcsanchez1.github.io/Responsive-Portfolio/
+
+
 Requirements
 Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px for each stylesheet.
 Make the layout match the following screenshots:
