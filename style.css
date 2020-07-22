@@ -72,12 +72,12 @@
 
 
     .sidebar {
-        float: right;
+        float: left;
         width: 100%;
         max-width: 270px;
         padding: 30px;
         margin-bottom: 20px;
-        background: #fff;
+        
         border: 1px solid #ddd;
       }
       
