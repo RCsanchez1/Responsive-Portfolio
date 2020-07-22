@@ -14,6 +14,9 @@ Make the position of the header static (the default positioning) when the screen
 Included the viewport tag in all my HTML files, otherwise my media-queries wouldn't function as expected on mobile devices.
 
 Technologies Used
+
 Media queries
+
 HTML
+
 CSS
